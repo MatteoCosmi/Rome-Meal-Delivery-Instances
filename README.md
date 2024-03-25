@@ -16,6 +16,6 @@ The instance folder contains 33 instances using anonymized data from meal delive
 
 - - Folder **D_bar** contains 216 files. Each file provides the distance between pairs of couriers or orders and orders. Each matrix has the size (|O| + |C|) x |O|, where C is the set of couriers and O is the set of orders
 
-To fully reproduce the experiments performed to produce the results mentioned in the paper, it is necessary to consider a check-out time equal to 1 for all the orders available in the instances. The (complete) distance matrix D_bar, used to build the model, was obtained summing the available D_bar, the check-out time ($alpha$) and the waiting time ($\beta$) at the restaurant: distance(i,j) = d_bar(i,j) + $\beta$(j) + $alpha$(i).
+To fully reproduce the experiments performed to produce the results mentioned in the paper, it is necessary to consider a check-out time equal to 1 for all the orders available in the instances. The (complete) distance matrix D_bar, used to build the model, was obtained summing the available D_bar, the check-out time ($\alpha$) and the waiting time ($\beta$) at the restaurant: distance(i,j) = d_bar(i,j) + $\beta$(j) + $\alpha$(i).
 
 [^1]: Note that in our experiments we rounded these values to multiple of 5.
